@@ -11,27 +11,21 @@ body {
 }
 
 .container__main {
-  /* Take the remaining height */
   flex-grow: 1;
-  /*align-items: baseline;*/
-
-  /* Layout the left sidebar, main content and right sidebar */
   display: flex;
   flex-direction: row;
 }
 
 .container__left {
-  
   margin-left: 3%;
   width: 25%;
 }
 .mid_left{
   margin-top: 0.6%;
-  width: 1%;
+  width: 5%;
   margin-left: -4%;
 }
 .container__middle {
-  /* Take the remaining width */
   margin-left: 2%;
   flex-grow: 1;
 }
